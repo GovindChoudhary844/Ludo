@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a069f5622eea614ba0714b48156e00f, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  GotiScaleOnTile: {x: 0.03, y: 0.03, z: 1}
+  GotiOffsetOnTile: 0.1
+  gotiOffset: {x: 0, y: 0, z: -2}
+  DelayToMove: 0.25
+  DelayToKill: 0.1
+  DelayToChangeTurn: 0.7
+  DelayToMoveAI: 1
+  DelayBeforeKill: 1
+  DelayToShowDice: 0.5
+  DelayToRoll: 1
+  DelayBeforeGameOver: 1
+  TimeScale: 1
+  NumberOfGoti: 4
+  MinDiceNumber: 1
+  MaxDiceNumber: 7
+  MovePoints: 1
+  KillPoints: 10
+  GoalPoints: 100
+  DiceNumbers:
+  - {fileID: 21300000, guid: e97f9aa4c6e144e93931d02cb6b954d0, type: 3}
+  - {fileID: 21300000, guid: 8114126daa7184b93af6d8082a2f78b6, type: 3}
+  - {fileID: 21300000, guid: bff3ee34c51c4421a9382374211c2659, type: 3}
+  - {fileID: 21300000, guid: 7bfc1384b57ee433f85e34b796f6ee1a, type: 3}
+  - {fileID: 21300000, guid: 5c1ef51ec930a4aafabf331dd3989752, type: 3}
+  - {fileID: 21300000, guid: 0d93c4fb819084b2db9edbc13a96ffcb, type: 3}
+  DiceDefault: {fileID: 21300000, guid: b1d55b3a46bd94e748fbc9ec6d9e3427, type: 3}
