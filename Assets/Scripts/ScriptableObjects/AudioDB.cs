@@ -14,7 +14,7 @@ namespace Ludo.ScriptableObjects
         KILL,
         GOAL,
         TAP,
-        GOTI_TAP
+        GOTI_TAP,
     }
 
     [Serializable]
